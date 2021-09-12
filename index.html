@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="icon" type="image/jpg" sizes="30x30" href="img/imgonglet.png" />
+        <title>Ayoub Web site</title>
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <!-- ancien header debut -->
+<!--         <header>
+            <div id="menu-bars" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="#home">HOME</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contacts</a>
+            </nav>
+        </header> -->
+        <!-- header fin -->
+
+        <!-- new navbar -->
+<div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-code icon'></i>
+        <div class="logo_name">Ayoub Site Web</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+
+      <li>
+        <a href="#home">
+          <i class='bx bx-home'></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+
+      <li>
+       <a href="#about">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">about</span>
+       </a>
+       <span class="tooltip">about</span>
+     </li>
+
+     <li>
+       <a href="#services">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">services</span>
+       </a>
+       <span class="tooltip">Services</span>
+     </li>
+
+     <li>
+       <a href="#portfolio">
+         <i class='bx bx-wallet' ></i>
+         <span class="links_name">Portfolio</span>
+       </a>
+       <span class="tooltip">Portfolio</span>
+     </li>
+
+     <li>
+       <a href="#">
+         <i class='bx bx-file' ></i>
+         <span class="links_name">Fichier partage</span>
+       </a>
+       <span class="tooltip">Fichier</span>
+     </li>
+
+     <li>
+       <a href="#contact">
+         <i class='bx bx-phone' ></i>
+         <span class="links_name">Contact</span>
+       </a>
+       <span class="tooltip">Contact</span>
+     </li>
+
+ <!--     <li>
+       <a href="#">
+         <i class='bx bx-heart' ></i>
+         <span class="links_name"></span>
+       </a>
+       <span class="tooltip">Saved</span>
+     </li>
+ -->
+     <li>
+       <a href="#setting">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>
+
+     <li class="profile">
+         <div class="profile-details">
+           <img src="img/img1.jpg" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Ayoub Adouche</div>
+             <div class="job">Web designer, developer</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+        <!-- end section barnav -->
+
+        <!-- debut home section -->
+        <section class="home" id="home">
+            <div id="particles-js"></div>
+
+            <div class="content">
+                <img class="tilt" src="img/img1.jpg" alt="" />
+                <h3>Adouche <span> Ayoub</span></h3>
+                <p>
+                    I am A
+                    <span class="typing-text"> Front end developer </span>
+                </p>
+                <a href="#about" class="btn">About me</a>
+            </div>
+        </section>
+        <!-- fin home section -->
+
+        <!-- about section starts -->
+        <section class="about" id="about">
+            <h1 class="heading">About <span> Me </span></h1>
+
+            <div class="row">
+                <div class="image">
+                    <img  class="tilt" src="img/img1.jpg" alt="" />
+                </div>
+                <div class="content">
+                    <h3>My name is <span>Adouche Ayoub</span></h3>
+                    <p class="info">
+                        Lorem ipsum dolor, sit, amet consectetur adipisicing
+                        elit. Nulla laborum enim provident ullam velit culpa
+                        magni tempora sunt recusandae, voluptatem et. Ex nostrum
+                        quos repellendus. Iure culpa nobis porro deserunt?
+                    </p>
+                    <!-- container -->
+                    <div class="box-container">
+                        <div class="box">
+                            <p><span>Age : </span> 13</p>
+                            <p><span>experience : </span> 2 ans </p>
+                            <p><span>classe : </span> 4<sup>ème</sup></p>
+                        </div>
+                        <div class="box">
+                            <p><span>Langue : </span> Francais</p>
+                            <p><span> Tel : </span> 0000000000</p>
+                            <p>
+                                <span> email : </span>****.******@gmai.com
+                            </p>
+                        </div>
+                    </div>
+                    <!-- container end -->
+                </div>
+                <a href="#" class="btn">Download this and more info</a>
+            </div>
+        </section>
+        <!-- about section ends -->
+
+        <!-- services section  start -->
+        <section class="services" id="services">
+            <h1 class="heading"> <span>my</span> services</h1>
+
+            <div class="box-container">
+                <div class="box tilt">
+                    <i class="fas fa-code"></i>
+                    <h3>Web development</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, placeat?</p>
+                </div>
+
+                <div class="box tilt">
+                    <i class="fas fa-mobile"></i>
+                    <h3>Responsive designer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, placeat?</p>
+                </div>
+
+                 <div class="box tilt">
+                    <i class="fas fa-code"></i>
+                    <h3>Front end development</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, placeat?</p>
+                </div>
+
+                     <div class="box tilt">
+                    <i class="fas fa-desktop"></i>
+                    <h3>web designer</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, placeat?</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- service section end -->
+
+        <!-- portfolio section start -->
+            <section class="portfolio" id="portfolio" >
+                <h1 class="heading"><span>My</span>Portfolio</h1>
+
+                <div class="box-container">
+
+
+
+                    <div class="box tilt">
+                        <img src="img/img1.jpg" alt="">
+                        <div class="content">
+                            <a href="#" class="btn" alt="en savoir plus">Learn more</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="box tilt">
+
+                        <img src="img/img1.jpg" alt="">
+
+                        <div class="content">
+                            <a href="#" class="btn" alt="en savoir plus">Learn more</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="box tilt">
+
+                        <img src="img/img1.jpg" alt="">
+
+                        <div class="content">
+                            <a href="#" class="btn" alt="en savoir plus">Learn more</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="box tilt">
+
+                        <img src="img/img1.jpg" alt="">
+
+                        <div class="content">
+                            <a href="#" class="btn" alt="en savoir plus">Learn more</a>
+                        </div>
+
+                    </div>
+
+                    <div class="box tilt">
+
+                        <img src="img/img1.jpg" alt="">
+
+                        <div class="content">
+                            <a href="#" class="btn" alt="en savoir plus">Learn more</a>
+                        </div>
+
+                    </div>
+
+                    <div class="box tilt">
+
+                        <img src="img/img1.jpg" alt="">
+
+                        <div class="content">
+                            <a href="#" class="btn" alt="en savoir plus">Learn more</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+        <!-- portfolio section end -->
+
+<!-- contatct section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading">contact <span>me</span></h1>
+
+<div class="row">
+    <div class="image">
+        <img  class="tilt" 
+        src="./img/contact-img.svg" 
+        alt="img non dispo">
+
+    </div>
+
+        <form action="">
+            
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                 <input type="email" placeholder="email">
+            </div>
+
+             <input type="text" placeholder="subject" class="box">
+
+             <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+<div class="iconcontact">
+    <a href="https://github.com/Ayad20"> <i class='bx bxl-github bx-tada' style='color:#34565e' ></i></a> 
+    <a href="https://gitlab.com/Ayad20"><i class='bx bxl-gitlab bx-tada' style='color:#34565e' ></i> </a> 
+    <a href="https://figma.com"><i class='bx bxl-figma bx-tada' style='color:#34565e' ></i></a>
+    <a href="mailto:ayad.devweb75@gmail.com"> <i class='bx bx-mail-send bx-tada' style='color:#34565e' ></i> </a>
+    <a ></a> <i class='bx bxl-zoom bx-tada' style='color:#34565e' ></i>
+    <a href="https://codepen.io/ayaddevweb"></a><i class='bx bxl-codepen bx-tada' style='color:#34565e' ></i>
+</div>
+
+ <div class="btnsend"> <input type="submit" class="btn" value="send message"> </div>   
+
+         </form>          
+
+        
+
+</div>
+
+</section>
+<!-- contact section end  -->
+
+
+
+
+<!-- setting section start -->
+<section class="setting" id="setting">
+    <h1 class="heading"> <span>The</span> setting</h1>
+    <div class="tel">
+        <a class="vtel" href="mobileversion/index.html">Mobile version</a>
+    </div>
+</section>
+<!-- settings section end -->
+
+
+        <!--------------------------------------- ---start js part ---------------------------------------------->
+
+        <!-------------------------------- typed js -------------------------------->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+        <!-- particles js links -->
+        <script src="js/particles.min.js"></script>
+        <script src="js/app.js"></script>
+
+        <!-- vanilla-tilt.js link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+            <!-- js part -->
+<script src="tilt.js"></script>
+<script src="vanilla.js"></script>
+<script src="script.js"></script>
+<script src="navbar.js"></script>
+      <!-- end js part -->
+    </body>
+</html>
