@@ -285,3 +285,11 @@ body {
 }
 
 /* bar nav end */
+
+.contenue h1{
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #222;
+}
