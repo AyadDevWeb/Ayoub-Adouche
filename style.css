@@ -953,3 +953,20 @@ header .navbar a:hover {
   left: 250px;
   width: calc(100% - 250px);
 }
+
+
+
+
+
+
+
+.devwebbtn:hover{
+    background: #84D5F2;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#h1{
+    color: black;
+}
