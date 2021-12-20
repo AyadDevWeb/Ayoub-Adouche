@@ -345,6 +345,7 @@ header .navbar a:hover {
   .about .row .content .box-container .box a:hover {
     letter-spacing: 1px;
     color: white;
+    font-weight: bold;
   }
   
   
@@ -534,8 +535,9 @@ header .navbar a:hover {
             flex: 1 1 40rem;
             padding: 1rem 2rem;
             box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-            border-radius: .5rem;
-            background: #fff;
+            border-radius: 15px;
+            background: white;
+            border: 2px solid teal;
          }
 
          .contact .row form .inputBox{
@@ -548,7 +550,7 @@ header .navbar a:hover {
          .contact .row form .box,
          .contact .row form textarea{
             width: 100%;
-            border-radius: .5rem;
+            border-radius: 0.5rem;
             font-size:1.7rem;
             color: #333;
             padding: 1rem;
@@ -561,7 +563,7 @@ header .navbar a:hover {
          .contact .row form .inputBox input:focus,
          .contact .row form .box:focus,
          .contact .row form textarea:focus{
-            border-color: var(--C1);
+            border-color: teal;
             border-radius: 15px;
          }
 

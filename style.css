@@ -412,8 +412,9 @@ header .navbar a:hover {
   flex: 1 1 40rem;
   padding: 1rem 2rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: 0.5rem;
-  background: #fff;
+  border-radius: 15px;
+  background: white;
+  border: 2px solid teal;
 }
 
 .contact .row form .inputBox {
@@ -438,7 +439,7 @@ header .navbar a:hover {
 .contact .row form .inputBox input:focus,
 .contact .row form .box:focus,
 .contact .row form textarea:focus {
-  border-color: var(--C1);
+  border-color: teal;
   border-radius: 15px;
 }
 
