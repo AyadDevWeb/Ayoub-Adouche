@@ -604,20 +604,22 @@ header .navbar a:hover {
     margin-top: 3rem;
 }
 .setting .vpc {
-    font-size:4rem;
-    text-decoration: none;
-    color: #222;
-    border: 3px solid rgba(0, 0, 0, .1);
-    background: #86D3CE;
-    border-radius: 15px;
-    transition: 1s;
-    padding: 0 20px;
+    font-size: 4rem;
+  text-decoration: none;
+  color: #ebe7e7;
+  border: 3px solid #ebe7e7;
+  background: #008080;
+  border-radius: 15px;
+  transition: 1s;
+  padding: 0 20px;
 }
 
 .setting .vpc:hover {
     border: 2px solid black;
-    background: #86d3ce94;
+    background: #1cbdb2c5;
     border-radius: 20px;
+    letter-spacing: 2px;
+    color: #000000;
 }
 /*css style seting end*/
 
