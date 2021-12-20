@@ -5,6 +5,10 @@
     --C1: #86D3CE;
 }
 
+a{
+    text-decoration: none;
+}
+
 * {
     font-family: "Nunito", sans-serif;
     margin: 0;
@@ -350,6 +354,15 @@ header .navbar a:hover {
     color: var(--C1);
 }
 
+
+.about .row .content .box-container .box a {
+ color: black;
+ text-decoration: underline;
+}
+
+.about .row .content .box-container .box a:hover{
+    letter-spacing: 1px;
+}
 /*css style about end*/
 
 
