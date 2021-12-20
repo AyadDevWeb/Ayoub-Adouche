@@ -298,6 +298,7 @@ header .navbar a:hover {
 .about .row .content .box-container .box a:hover {
   letter-spacing: 1px;
   color: teal;
+  font-weight: bold;
 }
 
 
