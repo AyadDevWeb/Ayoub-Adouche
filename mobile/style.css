@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: #bcd8ff;
+    background: #93dbdb;
     padding-right: 5rem;
 }
 
@@ -96,7 +96,7 @@ header {
     z-index: 1000;
     border-left: 2px solid var(--C1);
     user-select: none;
-    background: #9bc4ff;
+    background: #219797;
 }
 
 header .navbar {
@@ -607,18 +607,18 @@ header .navbar a:hover {
 }
 .setting .vpc {
     font-size: 4rem;
-  text-decoration: none;
-  color: #ebe7e7;
-  border: 3px solid #ebe7e7;
-  background: #008080;
-  border-radius: 15px;
-  transition: 1s;
-  padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid rgb(44, 172, 172);
+    background: #008080;
+    border-radius: 15px;
+    transition: 1s;
+    padding: 0 20px;
 }
 
 .setting .vpc:hover {
-    border: 2px solid black;
-    background: #1cbdb2c5;
+    border: 3px solid teal;
+    background: rgb(44, 172, 172);
     border-radius: 20px;
     letter-spacing: 2px;
     color: #000000;
@@ -684,7 +684,7 @@ header .navbar a:hover {
 
     header .navbar {
         writing-mode: horizontal-tb;
-        background: #9bc4ff;
+        background: #219797;
         color: #222;
     }
 

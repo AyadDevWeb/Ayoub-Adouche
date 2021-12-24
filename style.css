@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
 :root {
-  /* --C1: #2688c3; */
   --C1: #008080;
 }
 
@@ -301,14 +300,13 @@ header .navbar a:hover {
   font-weight: bold;
 }
 
-
 .about .row .content .info a {
   color: black;
   font-weight: bold;
   text-decoration: underline;
 }
 
-.about .row .content .info a:hover{
+.about .row .content .info a:hover {
   letter-spacing: 1px;
   color: teal;
 }
@@ -484,8 +482,8 @@ header .navbar a:hover {
 .setting .vtel {
   font-size: 4rem;
   text-decoration: none;
-  color: #ebe7e7;
-  border: 3px solid #ebe7e7;
+  color: black;
+  border: 3px solid rgb(44, 172, 172);
   background: #008080;
   border-radius: 15px;
   transition: 1s;
@@ -493,8 +491,8 @@ header .navbar a:hover {
 }
 
 .setting .vtel:hover {
-  border: 2px solid black;
-  background: #1cbdb2c5;
+  border: 3px solid teal;
+  background: rgb(44, 172, 172);
   border-radius: 20px;
   letter-spacing: 2px;
   color: #000000;
@@ -831,15 +829,4 @@ header .navbar a:hover {
 .sidebar.open ~ {
   left: 250px;
   width: calc(100% - 250px);
-}
-
-.devwebbtn:hover {
-  background: #84d5f2;
-  text-decoration: none;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-#h1 {
-  color: black;
 }
