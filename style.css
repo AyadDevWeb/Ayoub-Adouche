@@ -708,8 +708,8 @@ header .navbar a:hover {
 }
 
 .sidebar.open .bx-search:hover {
-  background: #1d1b31;
-  color: #fff;
+  background: white;
+  color: black;
 }
 
 .sidebar .bx-search:hover {
